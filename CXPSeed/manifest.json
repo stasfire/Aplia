@@ -1,0 +1,14 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Get pages source from a popup",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA77pwk0GmxFRTl2CXz8eUNAd9mn7yhNN5cCxL/1nz++VbE+itwL+61eDiewjXhQkspjIcAtk/w4SZkU81xEHh45EGReA49Ip4RsI9nB8s3JEIVYJmF5maaGGQa9+OqHBJPSsHcM9DOOs1uF7lu88APme5WoEqbiYfFRmhS3QPLKaXLVrPcdONn1IGJag1tBU/gx71nDy7K3o5caHwZE9uozG/GKBFlCabXIk7u2xlXDyJnxswzT7IaXw1M5CVyvtJXp0bWBrFUj9OKCC2u6hBaxNzIyElBwFY3lTLA6LjhzTzi/vFDQUZskf29XTLt1g6PQzRw1q9Diu7qxmcV80SLQIDAQAB",
+   "manifest_version": 2,
+   "name": "cxp seed",
+   "permissions": [ "http://*/", "https://*/*", "browsingData" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}
